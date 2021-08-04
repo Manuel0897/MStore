@@ -53,4 +53,8 @@ export class AppComponent {
       description: 'bla bla bla bla bla'
     },
   ];
+
+  clickProduct(id: string) {
+    console.log('product: ', id)
+  }
 }
