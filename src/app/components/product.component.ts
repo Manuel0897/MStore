@@ -18,7 +18,6 @@ export class ProductComponent {
     @Output() productClicked: EventEmitter<string> = new EventEmitter();
 
     addCart(id: string) {
-        console.log('add carrito');
         this.productClicked.emit(id);
     }
 }
